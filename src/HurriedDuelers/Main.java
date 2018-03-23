@@ -22,7 +22,7 @@ public class Main {
                 fights++;
             }
         }
-        //Find the Ratio
+        //Find the Percentage Probablility
         double ratio = (fights/sims)*100;
         //Print the rate at which fights occur
         System.out.println(ratio+"%");
