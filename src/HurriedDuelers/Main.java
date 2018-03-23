@@ -1,4 +1,4 @@
-package SamuraiChamploo;
+package HurriedDuelers;
 
 import java.util.concurrent.ThreadLocalRandom;
 
@@ -7,7 +7,7 @@ public class Main {
         //Variable holding total fights that occur
         double fights = 0;
         //The total amount of sims to run
-        double sims = 1000000;
+        double sims = 10000000;
 
         for (int j = 0; j < sims; j++) {
             //Select fighter 1's arrival minute

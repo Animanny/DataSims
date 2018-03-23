@@ -7,7 +7,7 @@ public class Main {
         double sims, degree, larger;
         double ratio;
         larger = 0;
-        sims = 10000000;
+        sims = 10000000; //How many simulations that will be run
 
         for (int i = 0; i < sims; i++) {
             degree = ThreadLocalRandom.current().nextInt(0, 180 + 1);
